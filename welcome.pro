@@ -26,23 +26,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 TRANSLATIONS  += lang/welcome.ts \
-              lang/welcome_nl_NL.ts \
-              lang/welcome_ast.ts \
-              lang/welcome_ca.ts \
-              lang/welcome_cs.ts \
-              lang/welcome_de.ts \
-              lang/welcome_es.ts \
-              lang/welcome_es_AR.ts \
-              lang/welcome_fa_IR.ts \
               lang/welcome_fr.ts \
-              lang/welcome_hr_HR.ts \
-              lang/welcome_hi_IN.ts \
-              lang/welcome_hu.ts \
-              lang/welcome_id_ID.ts \
-              lang/welcome_it.ts \
-              lang/welcome_pl.ts \
-              lang/welcome_pt_BR.ts \
-              lang/welcome_uk.ts \
+              lang/welcome_kh.ts \
 
 # Default rules for deployment.
 #qnx: target.path = /tmp/$${TARGET}/bin
@@ -65,4 +50,6 @@ INSTALLS += target desktop icon qml
 
 DISTFILES +=
 
-HEADERS +=
+HEADERS += \
+    combobox_language.h \
+    mylang.h

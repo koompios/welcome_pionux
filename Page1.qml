@@ -22,16 +22,17 @@ import QtQuick.Layouts 1.3
 import org.kde.plasma.core 2.0 as PlasmaCore
 
 Page1Form {
+    id: page1thisIdNotUsed
     PlasmaCore.DataSource {
         id: executer
         engine: "executable"
         onNewData: {executer.disconnectSource(sourceName);}
     }
 
-    button1.onClicked: {
-        executer.connectSource("/usr/bin/launch-calamares.sh");
-        //executer.connectSource("/data/anke/dev/github/build-guide-Desktop-Debug/guide");
-    }
+//    button1.onClicked: {
+//        executer.connectSource("/usr/bin/launch-calamares.sh");
+//        //executer.connectSource("/data/anke/dev/github/build-guide-Desktop-Debug/guide");
+//    }
     
     property variant window;
     button3.onClicked: {

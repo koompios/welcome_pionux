@@ -13,9 +13,9 @@
    height="48"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
    viewBox="0 0 16 16"
-   sodipodi:docname="folder-documents.svg">
+   sodipodi:docname="document.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="-8.9223341"
-     inkscape:cy="9.4541367"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-95.21692"
+     inkscape:cy="-4.1965428"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -35,9 +35,9 @@
      borderlayer="true"
      units="px"
      inkscape:window-width="1366"
-     inkscape:window-height="744"
+     inkscape:window-height="725"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="18"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -45,19 +45,23 @@
     <sodipodi:guide
        position="2,14.000017"
        orientation="12,0"
-       id="guide4066" />
+       id="guide4066"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="2,2.0000174"
        orientation="0,12"
-       id="guide4068" />
+       id="guide4068"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="14,2.0000174"
        orientation="-12,0"
-       id="guide4070" />
+       id="guide4070"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="14,14.000017"
        orientation="0,-12"
-       id="guide4072" />
+       id="guide4072"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -77,7 +81,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <path
-       style="fill:#353637;fill-opacity:1;stroke:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
        d="m 10,11 0,0 2,0 1,-1 0,-8 -9,0 -1,0 0,1 0,11 1,0 5,-1.7e-5 L 10,13 M 4,3 l 8,0 0,7 -3,0 0,2 1,-1 0,1 -1,1 -5,0 z"
        transform="translate(0,1036.3622)"
        id="rect4074"

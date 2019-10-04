@@ -21,48 +21,31 @@ import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 import QtQuick.Controls.Material 2.1
+import MyLang 0.1
 
 Item {
+
     id: item1
-    property alias button1: button1
+    //    property alias button1: button1
     //property alias button2: button2
+
     property alias button3: button3
     property alias button4: button4
     property alias button5: button5
     property alias button6: button6
-    property alias item1: item1
+    property alias button3Text: button3.text
+     property alias button4Text: button4.text
+     property alias button5Text: button5.text
+     property alias button6Text: button6.text
+
+//    property alias item1: item1
     width: 700
 
-    RowLayout {
+        RowLayout {
         width: 550
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.topMargin: 256
         anchors.top: parent.top
-
-        Button {
-            id: button1
-            width: 150
-            text: qsTr("Install KaOS")
-            font.capitalization: Font.MixedCase
-            Layout.fillWidth: true
-            rightPadding: 28
-            leftPadding: 28
-            checkable: true
-            highlighted: true
-            Material.elevation: 1
-
-            Image {
-                id: image1
-                y: 13
-                width: 28
-                height: 28
-                fillMode: Image.PreserveAspectFit
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.left: parent.left
-                anchors.leftMargin: 15
-                source: "images/partition-disk.svg"
-            }
-        }
 
 
         /*Button {
@@ -89,28 +72,61 @@ Item {
             }
         }*/
         Button {
-            id: button3
+            id: button4
             width: 150
-            text: qsTr("Guide")
+            text: qsTr(priv.button_arr[3])+ Mytrans.emptyString
+
             font.capitalization: Font.MixedCase
             opacity: 1
+            Material.background: Material.Yellow
+            Material.foreground: "white"
+            rightPadding: 28
+            leftPadding: 28
             Layout.fillWidth: true
-            rightPadding: 35
-            leftPadding: 35
-            highlighted: true
+            checkable: false
+            highlighted: false
             Material.elevation: 1
 
             Image {
-                id: image3
-                y: 6
+                id: image4
+                y: 10
                 width: 22
                 height: 22
-                fillMode: Image.PreserveAspectFit
+                Material.foreground: "white"
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.leftMargin: 15
-                source: "images/help.svg"
+                fillMode: Image.PreserveAspectFit
+                source: "images/list.svg"
             }
+        }
+
+        Button {
+            id: button6
+            width: 150
+            text: qsTr(priv.button_arr[0])+ Mytrans.emptyString
+            font.capitalization: Font.MixedCase
+            Material.background: Material.Red
+            Material.foreground: "white"
+            opacity: 1
+            rightPadding: 28
+            leftPadding: 28
+            highlighted: false
+            Layout.fillWidth: true
+            Material.elevation: 1
+
+
+            Image {
+                id: image6
+                y: 10
+                width: 22
+                height: 22
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.left: parent.left
+                anchors.leftMargin: 15
+                source: "images/document.svg"
+            }
+
         }
     }
 
@@ -133,36 +149,12 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
 
         Button {
-            id: button4
-            width: 150
-            text: qsTr("Package List")
-            font.capitalization: Font.MixedCase
-            opacity: 1
-            rightPadding: 28
-            leftPadding: 28
-            Layout.fillWidth: true
-            checkable: false
-            highlighted: false
-            Material.elevation: 1
-
-            Image {
-                id: image4
-                y: 10
-                width: 22
-                height: 22
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.left: parent.left
-                anchors.leftMargin: 15
-                fillMode: Image.PreserveAspectFit
-                source: "images/list.svg"
-            }
-        }
-
-        Button {
             id: button5
             width: 150
-            text: qsTr("Forum")
+            text: qsTr(priv.button_arr[2]) + Mytrans.emptyString
             font.capitalization: Font.MixedCase
+            Material.background: Material.Green
+            Material.foreground: "white"
             opacity: 1
             rightPadding: 28
             leftPadding: 28
@@ -184,26 +176,28 @@ Item {
         }
 
         Button {
-            id: button6
+            id: button3
             width: 150
-            text: qsTr("Documentation")
+            text: qsTr(priv.button_arr[1])+ Mytrans.emptyString
             font.capitalization: Font.MixedCase
+
             opacity: 1
-            rightPadding: 28
-            leftPadding: 28
-            highlighted: false
             Layout.fillWidth: true
+            rightPadding: 35
+            leftPadding: 35
+            highlighted: true
             Material.elevation: 1
 
             Image {
-                id: image6
-                y: 10
+                id: image3
+                y: 6
                 width: 22
                 height: 22
+                fillMode: Image.PreserveAspectFit
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.leftMargin: 15
-                source: "images/document.svg"
+                source: "images/help.svg"
             }
         }
     }

@@ -10,9 +10,7 @@
         <file>guide/partition.qml</file>
         <file>guide/summary.qml</file>
         <file>guide/user.qml</file>
-        <!--<file>TextTemplate.qml</file>-->
         <file>qtquickcontrols2.conf</file>
-        
         <file>images/document.svg</file>
         <file>images/folder-publicshare.svg</file>
         <file>images/help.svg</file>
@@ -21,7 +19,6 @@
         <file>images/partition-disk.svg</file>
         <file>images/release.svg</file>
         <file>images/face-smile-grin.svg</file>
-        <!--guide images-->
         <file>guide/images/cala1.png</file>
         <file>guide/images/cala2.png</file>
         <file>guide/images/cala3.png</file>
@@ -47,21 +44,10 @@
         <file>guide/images/cala25.png</file>
         <file>guide/images/cala26.png</file>
         <file>guide/images/cala27.png</file>
-        <!--Locale-->
-        <file>lang/welcome_es_AR.qm</file>
-        <file>lang/welcome_es.qm</file>
-        <file>lang/welcome_fr.qm</file>
-        <file>lang/welcome_it.qm</file>
-        <file>lang/welcome_nl_NL.qm</file>
-        <file>lang/welcome_de.qm</file>
         <file>images/list.svg</file>
-        <file>lang/welcome_ca.qm</file>
         <file>package.qml</file>
-        <file>lang/welcome_cs.qm</file>
-        <file>lang/welcome_pt_BR.qm</file>
-        <file>lang/welcome_uk.qm</file>
-        <file>lang/welcome_hr_HR.qm</file>
-        <file>lang/welcome_hi_IN.qm</file>
-        <file>lang/welcome_hu.qm</file>
+        <file>lang/welcome.qm</file>
+        <file>lang/welcome_fr.qm</file>
+        <file>lang/welcome_kh.qm</file>
     </qresource>
 </RCC>
