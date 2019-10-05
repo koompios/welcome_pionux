@@ -47,9 +47,9 @@ Page1Form {
         //pageloader.source = "/usr/lib/qt5/qml/welcome/package.qml"
     }
     button5.onClicked: {
-        Qt.openUrlExternally("https://forum.kaosx.us/");
+        Qt.openUrlExternally("https://www.koompi.com/");
     }
     button6.onClicked: {
-        Qt.openUrlExternally("https://kaosx.us/docs");
+        Qt.openUrlExternally("https://pionux.org/docs");
     }
 }
