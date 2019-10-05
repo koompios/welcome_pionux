@@ -1,8 +1,8 @@
-# welcome_qml
-Live system welcome app for KaOS, written in QML
+# Pionux User Guide
+
+Users guide portal for Pionux Cosmos.
 
 ![Screenshot](images/welcome1.png)
-![Screenshot2](images/welcome2.png)
 
 ### License
 GPL
@@ -22,3 +22,6 @@ make install
 ```
 
 Make sure to adjust to the correct path of your Qt5 qmake. This will build and install Welcome, including localizations files.
+
+### Credit 
+This project got a lot of inspiration from KaOS
